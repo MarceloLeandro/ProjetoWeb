@@ -22,13 +22,14 @@ namespace ProjetoWeb.Models
             get { return descricao; }
             set { descricao = value; }
         }
-        private float preço;
+        private int quantidade;
 
-        public float Preço
+        public int Quantidade
         {
-            get { return preço; }
-            set { preço = value; }
+            get { return quantidade; }
+            set { quantidade = value; }
         }
+      
 
     }
 }
